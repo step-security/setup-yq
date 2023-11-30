@@ -4,7 +4,7 @@ const { promisify } = require("util");
 const path = require("path");
 const os = require("os");
 const fs = require("fs");
-
+const axios = require('axios');
 const cache = require("@actions/tool-cache");
 const core = require("@actions/core");
 
