@@ -12,7 +12,7 @@ jobs:
       with:
         egress-policy: audit
 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: ./
     - name: "Show folks how to run YQ"
       run: |
