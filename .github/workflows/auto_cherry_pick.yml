@@ -7,9 +7,6 @@ on:
         description: "Base branch to create the PR against"
         required: true
         default: "main"
-      script:
-        required: false
-        default: "npm run all"
 
 permissions:
   contents: write
@@ -24,4 +21,3 @@ jobs:
       original-owner: "chrisdickinson"
       repo-name: "setup-yq"
       base_branch: ${{ inputs.base_branch }}
-      script: ${{ inputs.script }}
