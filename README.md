@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - uses: step-security/setup-yq@v1
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+    - uses: step-security/setup-yq@ad0cf3bb7054291a414b615c1160ce0af1193a26 # v1.0.1
     - name: Show folks how to run YQ:
       run: |
         yq --help
