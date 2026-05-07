@@ -1,3 +1,5 @@
+[![StepSecurity Maintained Action](https://raw.githubusercontent.com/step-security/maintained-actions-assets/main/assets/maintained-action-banner.png)](https://docs.stepsecurity.io/actions/stepsecurity-maintained-actions)
+
 # setup-yq
 
 Sets up [YQ][ref-yq], yet-another-markup-language-query-er, for use in your GitHub Actions workflow. (And it caches it, too!)
